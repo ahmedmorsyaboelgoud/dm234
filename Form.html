@@ -1,0 +1,94 @@
+<html>
+    <head>
+<title> Home Page</title>
+<style>
+p{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+body{
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+</style>
+    </head>
+<body>
+    <a href="#">Home</a>
+    <a href="#">Student List</a>
+    <a href="#">New Student</a>
+</body>
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+<p>
+    <label>Name:
+        <input type="text" name="txtname">
+    </label>
+</p>
+<p>
+    <label>Birthday:
+        <input type="date" name="txtBD">
+    </label>
+</p>
+<p>
+<label>Gender:
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">FeMale
+</label>
+</p>
+</fieldset>
+<fieldset>
+    <legend>Personal Information</legend>
+<P>
+    
+    <label>
+        Email: 
+        <input type="email" name="txtEmail">
+
+    </label>
+</p>
+<p>
+    <label>
+        Phone: 
+        <input type="tel" name="txtPhone">
+
+    </label>
+</p>
+<p>
+    <label>
+        Address:
+        <textarea rows="5" cols="100" name="txtAddress"></textarea>
+    </label>
+</P>
+</fieldset>
+<fieldset>
+    <legend>University Information</legend>
+<p>
+<label>Select your Faculty
+    <select name="Faculty">
+        <option value="FCIT">Computer science</option>
+        <option value="BUSS">Business</option>
+        <option value="PHAR">Pharmacy</option>
+        <option value="FOM">Faculty of medicine</option>
+    </select>
+</label>
+</p>
+</fieldset>
+<input type="submit">
+</form>
+
+</html>
